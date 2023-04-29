@@ -76,6 +76,24 @@ git branch -D branch_name
  ``` git log --graph```
 
  ``` git log --graph --oneline```
+
+ ## 12. Work with remote repositories
+ 1. Create account on GitHub
+ 2. Create local repositorie
+ 3. Create remote repositorie
+ 4. Connect local repositorie with remote
  
+ Add remote repositorie to project
+```
+ git remote add <name> <URL address>
+```
 
+To get and merge changes from a remote repository, use the command `git pull`
 
+Send changes from a local repository to a remote `git push`
+
+To do pull request use command
+```
+git push -u origin branch
+```
+On GitHub will appear button Compare and request
